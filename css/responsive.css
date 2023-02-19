@@ -113,6 +113,13 @@
         background-position: center -130px;
     }
 }
+@media (max-width: 550px){
+    .background-img {
+        background-position: center 0px;
+    }
+}
+
+
 
 /* hero responsive */
 @media (max-width: 1199px) {
@@ -138,6 +145,15 @@
 
 }
 @media (max-width: 720px) {
+    .vertical-align {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .hero-title-text {
+        font-size: 22px;
+        margin-top: -215px;
+        width: 311px;
+    }
     .hero-title-text{
         font-size: 22px;
         margin-top: -210px;
