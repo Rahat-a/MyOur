@@ -1,4 +1,14 @@
 
+
+// preloader
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+    loader.style.display = "none";
+})
+
+
+
+
 //  Typed Animation  Start 
 var typed = new Typed (".typeJs", {
     strings: ["Web Developer", "Programmer","Web Designer", "Founder of Web Alone 😍"],
