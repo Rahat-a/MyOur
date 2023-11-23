@@ -216,7 +216,7 @@ body{
 .hero{
     position: relative;
     overflow: visible;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .full-width {
